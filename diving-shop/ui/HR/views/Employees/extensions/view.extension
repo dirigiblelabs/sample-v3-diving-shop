@@ -1,0 +1,5 @@
+{
+	"description": "Employees view",
+	"extensionPoint": "launchpad-diving-shop-HR-view",
+	"module": "diving-shop/ui/HR/views/Employees/extensions/view.js"
+}

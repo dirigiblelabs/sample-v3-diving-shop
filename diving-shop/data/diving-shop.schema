@@ -1,0 +1,71 @@
+{
+    "schema": {
+        "structures": [
+            {
+                "name": "DIVING_SHOP_PRODUCTS",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "PRODUCT_ID"
+                    }, {
+                        "type": "VARCHAR",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "PRODUCT_NAME"
+                    }, {
+                        "type": "DOUBLE",
+                        "nullable": true,
+                        "name": "PRODUCT_PRICE"
+                    }]
+            }, {
+                "name": "DIVING_SHOP_EMPLOYEES",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "EMPLOYEE_ID"
+                    }, {
+                        "type": "VARCHAR",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "EMPLOYEE_NAME"
+                    }, {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "nullable": true,
+                        "name": "EMPLOYEE_JOB_TYPE"
+                    }, {
+                        "type": "DOUBLE",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "EMPLOYEE_SALARY"
+                    }]
+            }, {
+                "name": "DIVING_SHOP_EMPLOYEE_JOB_TYPES",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "JOB_TYPE_ID"
+                    }, {
+                        "type": "VARCHAR",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "JOB_TYPE_NAME"
+                    }]
+            }]
+    }
+}

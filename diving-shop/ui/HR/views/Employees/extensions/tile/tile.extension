@@ -1,0 +1,5 @@
+{
+	"description": "HR tiles",
+	"extensionPoint": "launchpad-diving-shop-tiles",
+	"module": "diving-shop/ui/HR/views/Employees/extensions/tile/tile.js"
+}

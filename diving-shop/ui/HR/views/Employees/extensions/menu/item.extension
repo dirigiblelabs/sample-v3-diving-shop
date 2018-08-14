@@ -1,0 +1,5 @@
+{
+	"description": "Employees menu",
+	"extensionPoint": "shell-diving-shop-menu",
+	"module": "diving-shop/views/Employees/menu/item.js"
+}

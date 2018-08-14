@@ -1,0 +1,5 @@
+{
+	"description": "Products view",
+	"extensionPoint": "launchpad-diving-shop-Catalog-view",
+	"module": "diving-shop/ui/Catalog/views/Products/extensions/view.js"
+}

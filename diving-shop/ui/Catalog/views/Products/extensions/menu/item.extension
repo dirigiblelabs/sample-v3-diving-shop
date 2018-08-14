@@ -1,0 +1,5 @@
+{
+	"description": "Products menu",
+	"extensionPoint": "shell-diving-shop-menu",
+	"module": "diving-shop/views/Products/menu/item.js"
+}

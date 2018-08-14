@@ -1,0 +1,5 @@
+{
+	"description": "HR perspective",
+	"extensionPoint": "launchpad-diving-shop-perspective",
+	"module": "diving-shop/ui/HR/extensions/perspective/perspective.js"
+}
